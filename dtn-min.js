@@ -1,4 +1,3 @@
-<script>
 (function () {
 
   // --- Configuration emails ---
@@ -110,7 +109,6 @@
     box.scrollTop = box.scrollHeight;
   }
 
-  // Global function
   window.dtnChoose = function(type) {
     addMsg(type === "info" ? "Aide / renseignements" : "Demander un devis", "user");
 
@@ -140,8 +138,4 @@
   }
 
   function askInfo(type) {
-    addMsg("Très bien, merci ! 😊 Pourriez-vous m’en dire un peu plus ?");
-  }
-
-})();
-</script>
+    addMs
